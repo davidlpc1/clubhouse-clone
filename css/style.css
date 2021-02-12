@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    outline:0;
+    border:0;
+
+    letter-spacing: -0.2px;
+    font-family: 'Nunito', sans-serif;
+}
+
+main{
+    border-top-left-radius: 2.3rem;
+    border-bottom-right-radius: 2.3rem;
+    padding-bottom: 64px;
+}
+
+main div {
+    padding-bottom: 85px;
+}
+
+main > div p,
+main > div p img{
+    background-color: #ddd;
+    border-radius: 42%;
+    width: 85px;
+    height: 85px;
+    object-fit: cover;
+}
